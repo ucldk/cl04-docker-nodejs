@@ -1,0 +1,34 @@
+{
+  "name": "cl04-docker-nodejs",
+  "version": "0.0.1",
+  "description": "Super fancy example project, with really cool features like... Well #ff1493",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "prod": "node server/index.js",
+    "test": "echo 'No test created yet'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucldk/cl04-docker-nodejs.git"
+  },
+  "keywords": [
+    "ucl",
+    "docker",
+    "nodejs",
+    "example",
+    "exercise"
+  ],
+  "author": "Kenneth Clausen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ucldk/cl04-docker-nodejs/issues"
+  },
+  "homepage": "https://github.com/ucldk/cl04-docker-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
